@@ -1,8 +1,0 @@
-name: Test Workflow
-on: push
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Greeting
-        run: echo "Hello, ${{ github.actor }}"
